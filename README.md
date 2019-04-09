@@ -60,3 +60,8 @@ pytest -v -m run_three_please
 ```
 pytest -x
 ```
+
+## トレースバックを非表示にする
+```
+pytest --tb=no
+```
