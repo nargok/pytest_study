@@ -44,3 +44,15 @@ collected 6 items / 4 deselected / 2 selected
   <Function test_defaults>
 ```
 
+## マークをつけたテストを実行する
+```python
+@pytest.mark.run_three_please
+def test_replace():
+  pass
+```
+
+```
+# pytest -m <マーク名称>
+pytest -v -m run_three_please
+```
+
