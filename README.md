@@ -56,3 +56,7 @@ def test_replace():
 pytest -v -m run_three_please
 ```
 
+## テストが失敗したらそこで終了にする
+```
+pytest -x
+```
